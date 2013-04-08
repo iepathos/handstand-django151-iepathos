@@ -1,0 +1,17 @@
+Django==1.5.1
+django-startcbv>=0.2.3
+django-social-auth>=0.7.22
+django-extensions>=1.1.1
+django-debug-toolbar>=0.9.4
+South>=0.7.6
+
+# forms
+
+
+# text editing
+django-tinymce>=1.5.1
+django-wysiwyg>=0.5.1
+
+# coverage
+django-coverage>=1.2.2
+coverage>=3.6
