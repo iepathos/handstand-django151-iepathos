@@ -1,4 +1,4 @@
-from django.conf.urls.defaults import patterns, include, url
+from django.conf.urls import patterns, include, url
 from django.contrib import admin
 from django.views.generic.base import TemplateView
 
@@ -14,4 +14,6 @@ urlpatterns = patterns('',
     url(r'^login/$', TemplateView.as_view(template_name='login.html'), name='login'),
     url(r'^logout/$', 'django.contrib.auth.views.logout_then_login', {}, 'logout',),
     url(r'^associate/$', TemplateView.as_view(template_name='associate.html'), name='associate'),
+
+    url(r'^tinymce/', include('tinymce.urls')),
 )

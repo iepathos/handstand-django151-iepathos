@@ -69,7 +69,10 @@ TEMPLATE_DIRS = (
     os.path.join(PROJECT_ROOT, 'templates'),
 )
 
+# tinymce and django_wysiwyg editing
 DJANGO_WYSIWYG_FLAVOR = "tinymce" 
+DJANGO_WYSIWYG_MEDIA_URL = ''
+TINYMCE_JS_URL = os.path.join(MEDIA_ROOT, "tiny_mce/tiny_mce.js")
 
 PREREQ_APPS = (
     'django.contrib.auth',
@@ -88,6 +91,7 @@ PREREQ_APPS = (
     'django_coverage',
     'tinymce',
     'django_wysiwyg',
+    'crispy_forms',
 )
 
 PROJECT_APPS = ()
