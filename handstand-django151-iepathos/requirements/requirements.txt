@@ -6,7 +6,7 @@ django-debug-toolbar==0.9.4
 South==0.7.6
 
 # forms
-
+django-crispy-forms==1.1.4
 
 # text editing
 django-tinymce==1.5.1
