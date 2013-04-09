@@ -71,8 +71,8 @@ TEMPLATE_DIRS = (
 
 # tinymce and django_wysiwyg editing
 DJANGO_WYSIWYG_FLAVOR = "tinymce" 
-DJANGO_WYSIWYG_MEDIA_URL = ''
-TINYMCE_JS_URL = os.path.join(MEDIA_ROOT, "tiny_mce/tiny_mce.js")
+DJANGO_WYSIWYG_MEDIA_URL = os.path.join(MEDIA_ROOT, "tiny_mce/tiny_mce.js")
+#TINYMCE_JS_URL = os.path.join(MEDIA_ROOT, "tiny_mce/tiny_mce.js")
 
 PREREQ_APPS = (
     'django.contrib.auth',

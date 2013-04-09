@@ -1,4 +1,4 @@
-from django.conf.urls.defaults import *
+from django.conf.urls import patterns, include, url
 from profiles.models import Profile
 from profiles.views import ProfileListView, ProfileDetailView, profile_edit
 
