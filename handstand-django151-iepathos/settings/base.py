@@ -137,3 +137,9 @@ LOGIN_REDIRECT_URL = '/'
 LOGIN_ERROR_URL    = '/login-error/'
 SOCIAL_AUTH_USERNAME_FIXER = lambda u: slugify(u)
 
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+        'LOCATION': '127.0.0.1:11211',
+    }
+}

@@ -8,7 +8,7 @@ class ProfileAdmin(admin.ModelAdmin):
     save_on_top = True
     search_fields = ['username', 'fullname', 'email',]
 
-    change_form_template = 'profiles/admin/change_form.html'
+    #change_form_template = 'profiles/admin/change_form.html'
 
 admin.site.register(Profile, ProfileAdmin)
 

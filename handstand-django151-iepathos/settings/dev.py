@@ -37,5 +37,4 @@ DEBUG_TOOLBAR_CONFIG = {
     'INTERCEPT_REDIRECTS': False,
 }
 
-
-
+CACHE_VIEW_LENGTH = 0 # Set to 0 for development environment
